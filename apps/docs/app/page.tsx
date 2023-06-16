@@ -1,10 +1,14 @@
-import { Button, Header } from "ui";
+// import { Button, Header } from "ui";
+import DataComponent from "../modules/DataComponent";
 
 export default function Page() {
   return (
     <>
-      <Header text="Docs" />
-      <Button />
+      {/* <Header text="Docs : Remote" />
+      <Button /> */}
+
+      {/* @ts-expect-error Async Server Component */}
+      <DataComponent />
     </>
   );
 }
