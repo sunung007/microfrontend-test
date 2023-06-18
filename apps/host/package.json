@@ -13,14 +13,15 @@
     "@types/react-dom": "^18.2.5",
     "craco-alias": "^3.0.1",
     "eslint-config-react-app": "^7.0.1",
+    "jsonx": "^2.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
+    "ui": "*",
     "web-vitals": "^2.1.4",
     "webpack": "5",
-    "webpack-cli": "^5.1.4",
-    "ui": "*"
+    "webpack-cli": "^5.1.4"
   },
   "devDependencies": {
     "tsconfig": "*"

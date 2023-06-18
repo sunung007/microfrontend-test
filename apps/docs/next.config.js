@@ -3,6 +3,7 @@ const { NextFederationPlugin } = require("@module-federation/nextjs-mf");
 module.exports = {
   reactStrictMode: true,
   transpilePackages: ["ui"],
+  output: "export",
 
   webpack(config, options) {
     const { isServer } = options;
